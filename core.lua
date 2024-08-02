@@ -9,7 +9,7 @@ local function getChatColorCode(chatType)
         g = floor(chatInfo.g * 255 + 0.5)
         b = floor(chatInfo.b * 255 + 0.5)
     end
-    return string.format("|cff%x%x%x", r, g, b)
+    return string.format("|cff%02x%02x%02x", r, g, b)
 end
 
 local function openInput(command)
