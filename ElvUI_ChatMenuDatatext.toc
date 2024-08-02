@@ -1,0 +1,7 @@
+## Interface: 30403
+## Author: Nan
+## Title: |cff1784d1ElvUI|r |cfd9b9b9bChat Menu Datatext|r
+## Version: 0.1
+## RequiredDeps: ElvUI
+
+core.lua
