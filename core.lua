@@ -92,7 +92,7 @@ frame:SetScript("OnEvent", function(self)
 end)
 
 local function onClick(self)
-    ToggleDropDownMenu(1, nil, frame, self, 0, 20)
+    ToggleDropDownMenu(1, nil, frame, self, 20, 150)
 end
 
 local function onEvent(self)
